@@ -1,0 +1,101 @@
+body {
+    margin: 1.5em;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #3a3842;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  h1 {
+    font-weight: bold;
+    font-size: 3em;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  span {
+    color: rgb(33, 14, 141);
+  }
+  
+  .login-box {
+    width: 25em;
+    height: 32em;
+    background: rgba(250, 247, 250, 0.959);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 3em 3em;
+    border-radius: 10%;
+  }
+  
+  .login-image {
+    width: 7em;
+    height: 7em;
+    border-radius: 50%;
+    position: absolute;
+    top: -3.7em;
+    left: calc(50% - 3.7em);
+  }
+  
+  h3 {
+    margin: 0 auto;
+    padding: 0.5em 0;
+    text-align: center;
+    font-size: 2.5rem;
+  }
+  
+  .login-box p {
+    margin: 0;
+    padding: 1em 0;
+    font-weight: bold;
+  }
+  
+  .login-box input {
+    width: 100%;
+    margin-bottom: 2em;
+  }
+  
+  .login-box input[type="text"],
+  input[type="password"] ,
+  input[type="email"]{
+    border: none;
+    border-bottom: 1.2px solid rgb(27, 14, 141);
+    background: transparent;
+    outline: none;
+    height: 2em;
+    color: rgb(14, 16, 141);
+    font-size: 16px;
+  }
+  
+  .login-box input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 2.5em;
+    background: rgb(5, 13, 129);
+    color: white;
+    font-size: 1em;
+    border-radius: 1.5rem;
+  }
+  
+  .login-box input[type="submit"]:hover {
+    cursor: pointer;
+    background: rgb(75, 85, 221);
+    color: white;
+  }
+  
+  .login-box a {
+    text-decoration: none;
+    font-size: 0.75em;
+    line-height: 1.7em;
+    color: rgb(53, 51, 58);
+    display: flex;
+    
+  }
+  
+  .login-box a:hover {
+    color: rgb(37, 14, 141);
+  }
+  
